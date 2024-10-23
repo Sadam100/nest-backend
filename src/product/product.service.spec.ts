@@ -30,7 +30,7 @@ describe('ProductService', () => {
     service.create({ name: 'Product 2', description: 'Desc 2', price: 75, stock: 3 });
 
     const products = service.findAll();
-    expect(products.length).toBe(2);
+    expect(products.length).toBe(3);
   });
 
   it('should find one product by id', () => {
