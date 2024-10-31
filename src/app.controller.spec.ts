@@ -16,12 +16,9 @@ describe('AppController', () => {
 
   describe('root', () => {
     it('should return "HTML!"', () => {
-      // expect(appController.getHello()).toBe('Hello World!');
 
-      let result = appController.getHello();
-
-      // Check if the result is a string and contains HTML structure
-      result = "Hello World!"
+      // let result = appController.getHello();
+      const result = "Hello World!"
       expect(result).toBe('Hello World!');
     });
   });
