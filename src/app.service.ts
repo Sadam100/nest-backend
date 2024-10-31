@@ -3,6 +3,7 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   getHello(): string {
+    // return 'Hello World!'
     return `
     <!DOCTYPE html>
     <html lang="en">
@@ -41,7 +42,7 @@ export class AppService {
     <body>
         <div class="content">
             <h1>Automation</h1>
-            <p>Make your life easy by CI/CD</p>
+            <p>Make your life easy by CI CD</p>
         </div>
     </body>
     </html>
